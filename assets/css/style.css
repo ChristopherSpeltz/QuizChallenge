@@ -1,0 +1,71 @@
+
+h1 {
+    text-align: left;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+header h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+li {
+    text-align: left;
+    margin-bottom: 0.5em;
+}
+
+#topscores {
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 3em;
+    /* clear: both; */
+    color: purple;
+}
+
+#clock {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 4em;
+    clear: both;
+}
+
+#topscore-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.topscore {
+    text-align: left;
+    font-weight: bold;
+    padding: 0.50em 3em;
+    color: white;
+    border-radius: 10px;
+}
+
+.lightpurple {
+    background-color: rgb(230, 184, 230);
+}
+
+.btn-purple {
+    background-color: purple;
+    border-color: purple;
+    color: white;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+
+.navigation {
+    position: relative;
+    width: 100%;
+    margin-top: .5em;
+    font-size: 32px;
+    height: 45px;
+    font-weight: bolder;
+}
