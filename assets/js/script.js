@@ -230,7 +230,7 @@ let appStates = {
       let initials = $("#initials").val();
   
       if (!initials) {
-        alert("You need to provide your initials!!!!");
+        window.alert("Please enter initials for High Score ranking!");
         return;
       }
   
